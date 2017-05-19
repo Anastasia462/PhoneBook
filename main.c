@@ -45,6 +45,9 @@ int main()
   int Exit = 1;
 
   ///good job!
+  if(1)
+    printf("\nHello");
+
   page* RootBook = NULL;
   FILE* myfile;
   record* NewRec;
