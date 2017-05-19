@@ -44,6 +44,9 @@ int main()
   int choice;
   int Exit = 1;
 
+  if(1)
+    printf("\nHello");
+
   page* RootBook = NULL;
   FILE* myfile;
   record* NewRec;
