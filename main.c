@@ -20,7 +20,7 @@ typedef struct page
 }page;
 
 int number = 0;
-
+/// Настя письк
 void Hello();
 record* EnterRecord();///Записываем Имя фамилию и телефон, в структуру record
 record* AddRecord(record* HeadRecords,  record* NewRecord);///Добавить новый узел в список, возвращает начало списка
